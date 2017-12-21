@@ -11,6 +11,10 @@
     font-size: 36px;
 }
 
+.container .color_fff{
+    color: #fff;
+}
+
 .container .middle .notification{
     color: #f6ab00;
 }
@@ -63,8 +67,10 @@
 }
 
 .container .full_screen {
-    height: 3141px;
+    height: 3180px;
     background: url("../images/wave.jpg") no-repeat center;
+    padding-top: 40px;
+    background-size: cover;
 }
 
 .container .brain {
@@ -72,4 +78,94 @@
     color: #fff;
     text-shadow: 3px 4px #000;
     text-align: center;
+}
+
+.container .brain:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    background: url("../images/star.png") no-repeat center;
+    background-size: 30px 35px;
+    margin-right: 10px;
+}
+
+.container .brain:after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    background: url("../images/star.png") no-repeat center;
+    background-size: 30px 35px;
+    margin-left: 10px;
+}
+
+.container .middle .little_title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .middle .ul_list li span:first-child{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 47px;
+    display: inline-block;
+    text-align: center;
+}
+
+.container .middle .ul_list li {
+    white-space:nowrap;
+    margin-top: 10px;
+}
+
+
+.container .para_img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container .para_text {
+    margin-top: 20px;
+}
+
+.container .para_table {
+    display: table-cell;
+    padding-top: 10px;
+}
+
+.container .para_table .order_number {
+    display: table-cell;
+    width: 20px;
+}
+
+.container .para_table .para_item_text {
+    display: table-cell;
+}
+
+.container .text_indent {
+    text-indent: 2em;
+}
+
+.container .medal_item img {
+    width: 100%;
+}
+
+.container .medal {
+    margin-top: 20px;
+}
+
+.container .medal_item {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 10px 0;
+}
+
+.container .full_sec {
+    padding-top: 100px;
+    height: 1500px;
+    background-size: 100% 1500px;
+}
+
+.container .full_third {
+    background-color: #14bdda;
 }
