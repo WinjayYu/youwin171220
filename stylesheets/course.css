@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    font-size: 30px;
+}
+
+.container .header .banner{
+    width: 100%;
+}
+
+.container .font_size36 {
+    font-size: 36px;
+}
+
+.container .middle .notification{
+    color: #f6ab00;
+}
+
+.container .middle {
+    width: 678px;
+    margin: 50px auto 0;
+}
+
+.container .middle .gray_text {
+    color: #666;
+    margin-top: 30px;
+}
+
+.container .middle .client {
+    background: url("../images/border.png") no-repeat center bottom;
+    background-size: 692px 1066px;
+    width: 692px;
+    height: 1080px;
+    margin-top: 30px;
+}
+
+.container .middle .client .client_know {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container .middle .client .table_group {
+    display: table;
+    padding: 20px 10px 0;
+    line-height: 50px;
+}
+
+.container .middle .client .table_group .table_item_name {
+    display: table-cell;
+    text-align: justify;
+    text-align-last: justify;
+    font-weight: bold;
+    width: 155px;
+}
+
+.container .middle .client .table_group .table_item_des {
+    display: table-cell;
+}
+
+.container .middle .client .text_group {
+    padding: 0 10px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+.container .full_screen {
+    height: 3141px;
+    background: url("../images/wave.jpg") no-repeat center;
+}
+
+.container .brain {
+    font-size: 49px;
+    color: #fff;
+    text-shadow: 3px 4px #000;
+    text-align: center;
+}
