@@ -169,3 +169,25 @@
 .container .full_third {
     background-color: #14bdda;
 }
+
+.container .school_table {
+    display: table;
+}
+
+.container .school_table .school_name {
+    display: table-cell;
+    border: 1px #fff solid;
+    text-align: justify;
+    text-align-last: justify;
+    width: 100px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.container .school_table .school_address {
+    display: table-cell;
+    border: 1px #fff solid;
+    width: 577px;
+    text-align: center;
+    padding: 0 5px;
+}
